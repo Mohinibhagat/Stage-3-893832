@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Application</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="AddNumbers.js"></script>
+</head>
+<body>
+ <div id="display_message" style="display:none;"></div>
+ <table border="4px">
+    <tr>
+       <td><label name="First Number" >Enter First Number:</label></td>
+       <td><input type="text" id="txt1" placeholder="Enter First Number"></td>
+    </tr>
+    <tr>
+       <td><label name="Second Number">Enter Second Number:</label></td>
+       <td><input type="text" id="txt2" placeholder="Enter Second Number"></td>
+    </tr>
+    <tr>
+       <td><label>Answer:</label></td>
+       <td><input type="text" id="txt3" disabled placeholder="Answer"></td>
+    </tr>
+    <tr>
+       <td><label>Submit:</label></td>
+       <td><input type="button" value="Add" onclick="add_two_number();"></td>
+    </tr>
+</table>
+</body>
+</html>
